@@ -11,7 +11,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
 " match parenthesis and curly brackets
-Plug 'chun-yang/auto-pairs'
+" Plug 'chun-yang/auto-pairs'
 
 " install commentary for easier commenting
 Plug 'chrisbra/vim-commentary'
@@ -31,6 +31,9 @@ Plug 'rhysd/vim-clang-format'
 " a tool to make it easy to define header gaurds
 Plug 'drmikehenry/vim-headerguard'
 
+" quickly switch between header files and c files
+Plug 'vim-scripts/a.vim'
+
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
@@ -45,6 +48,18 @@ call plug#end()
 " Swap Files
 " ============================================================================
 :set noswapfile
+
+" ============================================================================
+" Refresh vim buffer if file changes
+" ============================================================================
+:set autoread
+
+" ============================================================================
+" Show file name in status line
+" ============================================================================
+:set laststatus=2
+:set statusline+=%F
+
 
 " ============================================================================
 " hide abandonded files
