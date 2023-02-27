@@ -1,0 +1,9 @@
+#
+# this .gitignore file is used for the .cfg repository that tracks my dot files
+#
+
+# dont include the .cfg directory itself... that would be bad
+.cfg
+
+# don't include any of the installed vim extensions
+.vim/plugged/*
