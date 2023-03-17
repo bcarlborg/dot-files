@@ -7,3 +7,7 @@ Specifically, it uses the pattern outlined in [this article](https://www.atlassi
 
 ## Installation
 In order to install the dot files in this repository, follow the instation instructions in the two articles linked above :)
+
+## Usage
+Once this is setup in your home directory, you can use git just as you would normally expect... except instead of using `git [the rest of your command]` you can use `config [the rest of your command]`
+
