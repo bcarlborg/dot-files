@@ -122,6 +122,7 @@ nnoremap <C-LEFT> :bprev<CR>
 " ============================================================================
 nnoremap <leader>ff :Files<cr>
 nnoremap <Leader>fb :Buffers<CR>
+nnoremap <Leader>fg :Rg<CR>
 
 " ============================================================================
 " quickly open NERDtree
